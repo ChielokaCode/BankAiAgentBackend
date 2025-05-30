@@ -58,7 +58,7 @@ public string CreateAccount(
                    $"• Email: {account.Email}\n" +
                    $"• Phone: {account.Phone}\n" +
                    $"• Address: {account.Address}\n" +
-                   $"• Balance: {account.Balance:C}";
+                   $"• Balance: ₦{account.Balance:N2}";
         }
         else
         {
